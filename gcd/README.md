@@ -6,6 +6,7 @@ We can use euclidean algorithm to find the GCD of two numbers. The algorithm is 
 gcd(A, B) = gcd(B, A mod B) <br>
 
 #### The complete pseudo code is as follows:<br>
+Note: where A is greater than B. If not, then swap.
 ```
 function gcd(A, B)
 	while B ≠ 0
